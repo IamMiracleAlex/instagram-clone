@@ -12,10 +12,12 @@
 
       <div class="row username-img">
         <div class="col-sm-3 text-right">
-          <%# <%= image_tag avatar_url(@user), width: '38', height: '38', class: "round-img" %> %>
+           <%# image_tag avatar_url(@user),    %>
+           <%# change bellow email to name %>
+          <img src='https://ui-avatars.com/api/?name=<%= @user.email %>' width='38' height='38' class="round-img">
         </div>
         <div class="col-sm-9">
-          <p><%= @user.name %></p>
+          <p><%= @user.email %></p>
         </div>
       </div>
 
