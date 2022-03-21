@@ -14,6 +14,7 @@
 //= require turbolinks
 //= require jquery3
 //= require popper
+//= require dropzone
 //= require bootstrap-sprockets
 //= require_tree .
 //= require toastr
