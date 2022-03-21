@@ -22,3 +22,6 @@ a`  1/yarn-error.log
 
 .byebug_history
 .DS_Store
+
+# Ignore application configuration
+/config/application.yml
